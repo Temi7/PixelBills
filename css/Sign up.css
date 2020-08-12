@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #344C7E;
+}
+header{
+    background-color: white;
+    height: 150px;
+    position: ;
+    z-index: 1;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3);
+    
+}
+.logo{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+nav{
+    margin-top: 40px;
+    float: right;
+    margin-top: -60px;
+}
+ul li{
+    display: inline;
+    color: #344C7E;
+}
+.dashboard{
+    margin-right: 50px;
+    border: 2px solid #344C7E;
+    border-radius: 5px;
+    height: 20px;
+    padding: 10px 20px;
+}
+.dashboard:hover{
+    background-color: #344C7E;
+    color: white;
+}

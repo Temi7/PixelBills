@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard-style{
+   color: #344C7E; 
+}
+.dashboard-style:hover{
+    color: white;
+}
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.logo{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+nav{
+    margin-top: 40px;
+    float: right;
+    margin-top: -60px;
+}
+ul li{
+    display: inline;
+    color: #344C7E;
+}
+.dashboard{
+    margin-right: 50px;
+    border: 2px solid #344C7E;
+    border-radius: 5px;
+    height: 20px;
+    padding: 10px 20px;
+}
+.dashboard:hover{
+    background-color: #344C7E;
+    color: white;
+}
+.container{
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 200px;
+}
+.text-1{
+    margin-top: 50px;
+    color:  #344C7E;
+}
+.box-1{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 150px;
+    border: 2px solid #344C7E;
+}
+.search{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 180px;
+    background-color: #344C7E;
+    color: white;
+}
+.img-1{
+    height: 500px;
+    width: 465px;
+}
+.container-2{
+    height: 500px;
+    background-color: #98DDF1;
+    padding: 60px;
+    color:#344C7E;
+}
+.heading-1{
+    text-align: center;
+}
+.container-3{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.container-4{
+    height: 400px; 
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    background-color: white;
+}
+.account{
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 180px;
+    background-color: #344C7E;
+    color: white;
+    font-size: 15px;
+}
+.phone{
+    height: 1100px;
+    width: 500px;
+    margin-top: -500px;
+}
+.heading-2{
+    text-align: center;
+    color: #344C7E;
+}
+.text-3{
+    margin-top: 40px;
+    color: #344C7E;
+    margin-left: -50px;
+}
+.login-text{
+    margin-left: 250px;
+    color: #344C7E;
+}
+.free-account{
+    color: white;
+}
+.log-in:hover{
+    color: #344C7E;
+}
+.container-5{
+    height: 300px;
+    background-color: #98DDF1;
+    color: #344C7E;
+    text-align: center;
+    padding: 60px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.google{
+    height: 60px;
+    width: 170px;
+}
+.text-4{
+    padding: 20px;
+}
+footer{
+    background-color: white;
+    height: 250px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.contact{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.support{
+    margin-left: -120px;
+}
+
+/*----login css----*/
+
+.heading-4{
+    margin-top: 40px;
+    text-align: center;
+    color: #344C7E;
+}
+.login-logo{
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.container-6{
+    height: 400px;
+    width: 800px;
+    margin-left: 300px;
+    padding: 100px;
+    margin-top: px;
+    display: flex;
+    justify-content: space-around;
+}    
+.login-img{
+    height: 350px;
+    width: 200px;
+    margin-top: -60px;
+}
+.sign-up-link{
+    color: #344C7E;
+}
+.sign-up-link:hover{
+    color: #344C7E;
+}
+
+.box-2{
+    width: 600px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid #344C7E;
+}
+label{
+    color: #344C7E;
+}
+sup{
+    color: red;
+}
+.login{
+    height: 40px;
+    width: 100px;
+    background-color: #344C7E;
+    color: white;
+    margin-left: 70px;
+}
+.text-5{
+    margin-left: 25px;
+    color: #344C7E;
+}
+
+/*----sign up css----*/
+
+
+.sign-up-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.heading-5{
+    text-align: center;
+    margin-top: 70px;
+    color: #344C7E;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+}
+.box-3{
+    width: 280px;
+    height: 30px;
+    border-radius:  2px;
+    border: 1px solid #344C7E;
+}
+.create-account{
+    height: 40px;
+    width: 200px;
+    background-color: #344C7E;
+    color: white;
+    margin-left: 200px;
+}
+.text-6{
+    color: #344C7E;
+    margin-left: 200px;
+    padding-bottom: 80px;
+}
+.welcome-img{
+    width: 500px;
+    height: 800px;
+    margin-top: -40px;
+}
+
+/*---Dashboard css---*/
+
+.dashboard-body{
+    background-color: #f4f6f8;
+}
+.dashboard-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -180px;
+    margin-bottom: 100px;
+}
+.overview{
+    margin-top: 200px;
+    margin-left: 65px;
+    color: #344C7E;
+}
+.container-7{
+    margin-top: 200px;
+    width: 400px;
+    height: 420px;
+    border: 2px solid #344C7E;
+    border-radius: 15px;
+    color: #344C7E;
+}
+.profile{
+    padding: 40px 0px 20px 0px;
+}
+.user-img{
+    border-radius: 100px;
+    border: 1px solid black;
+    margin-left: 150px;
+}
+.follow{
+    margin-left: 150px;
+    height: 25px;
+    width: 100px;
+    background-color: #344C7E;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid #344C7E;
+    margin-top: 5px;
+}
+.user{
+    text-align: center;
+}
+.workload{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 10px;
+}
+.description{
+    padding: 20px 10px 20px 10px;
+}
+.container-8{
+    margin-top: 200px;
+    width: 700px;
+    height: 800px;
+    border: 2px solid #344C7E;
+    border-radius: 15px;
+    padding: 50px 20px 0px 20px;
+    color: #344C7E;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box-4{
+    width: 657px;
+    height: 30px;
+    border-radius:  2px;
+    border: 1px solid #344C7E;
+}
+#row-2{
+    margin-top: 20px;
+}
+textarea{
+    border-radius:  2px;
+    border: 1px solid #344C7E;
+}
+.update-account{
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color: #344C7E;
+}
