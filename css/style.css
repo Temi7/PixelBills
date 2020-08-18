@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: metrophobic;
 }
 a{
     text-decoration: none;
@@ -30,7 +30,7 @@ header{
 nav{
     margin-top: 40px;
     float: right;
-    margin-top: -60px;
+    margin-top: -55px;
 }
 ul li{
     display: inline;
@@ -48,14 +48,14 @@ ul li{
     color: white;
 }
 .container{
-    height: 550px;
+    height: 450px;
     display: flex;
     justify-content: space-around;
     background-color: white;
     margin-top: 200px;
 }
 .text-1{
-    margin-top: 50px;
+    margin-top: 10px;
     color:  #344C7E;
 }
 .box-1{
@@ -77,12 +77,13 @@ ul li{
 .img-1{
     height: 500px;
     width: 465px;
+    top: 40px;
 }
 .container-2{
     height: 500px;
-    background-color: #98DDF1;
+    background-color: #344C7E;
     padding: 60px;
-    color:#344C7E;
+    color:white;
 }
 .heading-1{
     text-align: center;
@@ -92,6 +93,9 @@ ul li{
     justify-content: space-around;
     padding: 40px;
 }
+.reasons{
+    margin-top: 0px;
+}
 .container-4{
     height: 400px; 
     display: flex;
@@ -99,11 +103,14 @@ ul li{
     padding: 60px;
     background-color: white;
 }
+.about-pixel{
+    margin-top: 0px;
+}
 .account{
     height: 40px;
-    width: 200px;
+    width: 150px;
     margin-top: 20px;
-    margin-left: 180px;
+    margin-left: -100px;
     background-color: #344C7E;
     color: white;
     font-size: 15px;
@@ -122,6 +129,10 @@ ul li{
     color: #344C7E;
     margin-left: -50px;
 }
+.butts{
+    display: flex;
+    justify-content: space-around;
+}
 .login-text{
     margin-left: 250px;
     color: #344C7E;
@@ -134,8 +145,8 @@ ul li{
 }
 .container-5{
     height: 300px;
-    background-color: #98DDF1;
-    color: #344C7E;
+    background-color:  #344C7E;
+    color:white;
     text-align: center;
     padding: 60px;
 }
@@ -154,7 +165,7 @@ ul li{
 }
 footer{
     background-color: white;
-    height: 250px;
+    height: 300px;
 }
 .foot{
     display: flex;
@@ -162,12 +173,17 @@ footer{
     margin-top: 20px;
     line-height: 30px;
 }
-.contact{
-    margin-left: 40px;
-    margin-top: 30px;
+.footer-details{
+    margin-top: 0px;
 }
-.support{
-    margin-left: -120px;
+.footer-hr{
+    width: 75%;
+    margin: auto;   
+    margin-top: 40px;
+}
+.copyright{
+    text-align: center;
+    padding: 20px 0px 40px;
 }
 
 /*----login css----*/
@@ -287,7 +303,7 @@ sup{
     width: 400px;
     height: 420px;
     border: 2px solid #344C7E;
-    border-radius: 15px;
+    border-radius: 5px;
     color: #344C7E;
 }
 .profile{
@@ -324,7 +340,7 @@ sup{
     width: 700px;
     height: 800px;
     border: 2px solid #344C7E;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 50px 20px 0px 20px;
     color: #344C7E;
 }
