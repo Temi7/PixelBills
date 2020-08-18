@@ -1,0 +1,138 @@
+/*big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px){
+     .container {
+        flex-direction: column-reverse;
+        text-align: center;
+     }
+     .box-1 {
+        margin-top: 55px;
+    }
+    .container-2 {
+        margin-top: 200px;
+        height: 980px;
+    }
+    .container-3 {
+        text-align: center;
+        flex-direction: column; 
+    }
+    .reasons {
+        margin-top: 30px;
+    }
+    .search {
+        margin-left: 11px;
+    }
+    .container-4 {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .phone {
+        margin-top: 235px;
+    }
+    .about-pixel {
+        position: relative;
+        top: -320px;
+        text-align: center;
+    }   
+    .butts {
+        justify-content: space-evenly;
+    }
+    .container-5 {
+        margin-top: 350px;
+    }
+    .foot {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-details {
+        margin-top: 20px;
+    }
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width: 1023px){
+     .container {
+        flex-direction: column-reverse;
+        text-align: center;
+     } 
+     .box-1 {
+        margin-top: 55px;
+    }
+    .container-2 {
+        margin-top: 200px;
+        height: 980px;
+    }
+    .container-3 {
+        text-align: center;
+        flex-direction: column; 
+    }
+    .reasons {
+        margin-top: 30px;
+    }
+    .search {
+        margin-left: 11px;
+    }
+    .container-4 {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .phone {
+        margin-top: 235px;
+    }
+    .about-pixel {
+        position: relative;
+        top: -320px;
+    }   
+    .butts {
+        justify-content: space-evenly;
+    }
+    .container-5 {
+        margin-top: 350px;
+    }
+    .foot {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-details {
+        margin-top: 20px;
+    }
+
+/*small phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+    body {
+        font-size: 20px;
+    }
+    .img-1 {
+        margin-top: 20px;
+    }
+    .container {
+        height: 540px;
+    }
+    .container-2 {
+        height: 1180px;
+    }
+    .container-4 {
+        margin-top: -80px;
+    }
+    .container-5 {
+        height: 462px;
+    }
+    
+}
+
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:320px){
+    body {
+        font-size: 30px;
+    }
+    .img-1 {
+        margin-top: 20px;
+    }
+    .container {
+        height: 540px;
+    }
+    .container-2 {
+        height: 1180px;
+    }
+    .container-4 {
+        margin-top: 18px;
+    }
+    
